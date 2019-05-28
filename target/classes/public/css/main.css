@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #FFFFFF;
+    background: url(../img/01.jpg) no-repeat left / cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: fixed;
+}
+
+h1 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 80px;
+    color: #4B0082;
+    margin-top: 25px;
+    margin-left: 220px;
+    position: center;
+}
+
+.button {
+    background: #4B0082;
+    color: #FFFFFF;
+    border-radius: 2px;
+    display: block;
+    width: 200px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+}
+
+.button_sign{
+    margin-top: 15px;
+    margin-left: 212px;
+}
+.button:active {
+    background: #202020;
+}
+
+.start_button{
+    margin-top: 30px;
+    margin-left: 62px;
+    border: none;
+    background: #9321DF;
+}
+
+input{
+    color: #4B0082;
+    background: #fff5f5;
+    display: block;
+    border: 0;
+    width: 300px;
+    outline-color: red;
+    padding: 10px 20px;
+}
+.register{
+    margin-left: 150px;
+}
+.register p {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}

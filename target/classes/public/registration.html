@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/books.css" />
+</head>
+
+<body>
+<section>
+    <h1>
+        Registration
+    </h1>
+</section>
+
+<section class="input">
+    <div class="register">
+        <form action="/registration" method="POST">
+            <p>Name*</p>
+            <input name="reg_login" type="text" id="login" maxlength="25" required spellcheck="false"
+                   autocomplete="off">
+            <p>Password*</p>
+            <input name="reg_password" type="password" id="password" maxlength="25" minlength="4" size="40" required
+                   autocomplete="off">
+            <p>Email</p>
+            <input name="reg_email" type="email" id="email" spellcheck="false" autocomplete="off">
+            <input type="submit" value="Sign up" id="joinbutton" class="button start_button">
+        </form>
+    </div>
+</section>
+
+</body>
+
+</html>

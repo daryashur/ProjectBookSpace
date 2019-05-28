@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Add note</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/books.css" />
+</head>
+
+<body>
+<header class="heading clearfix">
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="/index"><img src="img/home.png"></a>
+                <a href="/index">Home</a>
+            </li>
+            <li>
+                <a href="/books_new"></a>
+                <a href="books_new">BookSpace</a>
+            </li>
+            <li>
+                <a href="/logout"></a>
+                <a href="/logout">Log out</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+    <section class="title">
+        <h1>
+            Add your note
+        </h1>
+    </section>
+
+    <section class="container">
+        <div class="adding">
+            <form action="/add" method="POST">
+                <p>Enter name of book</p>
+                <input name="nameOfBook" type="text" id="nameOfBook" placeholder="" maxlength="25" spellcheck="false"
+                    autocomplete="off" required>
+                <p>Enter book description</p>
+                <div class="add chekbox-two type">
+                    <textarea name="note" id="note" cols="30" rows="14" placeholder="Required" maxlength="1000"
+                        spellcheck="false" required></textarea>
+                    <p>Status:</p>
+                    <label class="checkbox">
+                        <input type="radio" name="form" value="read" checked>
+                        <span class="checkbox__icon"></span>
+                        Read
+                    </label>
+                    <br>
+                    <label class="checkbox">
+                        <input type="radio" name="form" value="wantToRead">
+                        <span class="checkbox__icon"></span>
+                        Want to read
+                    </label>
+                    <input type="submit" class="button button_add" value="Add">
+                </div>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

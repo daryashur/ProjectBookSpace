@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Log in</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/books.css" />
+</head>
+
+<body>
+<header class="heading clearfix">
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="/index"><img src="img/home.png" alt="notes"></a>
+                <a href="/index">Home</a>
+            </li>
+            <li>
+                <a href="/books_new"><img src="img/notes.png" alt="notes"></a>
+                <a href="/books_new">My notes</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section class="title title_signin">
+    <a class="button button_sign" href="/registration">Sign up</a>
+</section>
+
+<section class="input container sign">
+    <div class="register">
+        <form action="/login" method="POST">
+            <p>Name</p>
+            <input name="name" type="text" id="login" maxlength="25" required spellcheck="false" autocomplete="off">
+            <p>Password</p>
+            <input name="password" type="password" id="password" maxlength="25" minlength="4" size="40" required
+                   autocomplete="off">
+            <input type="submit" class="button submit" value="Log in" id="joinbutton">
+        </form>
+    </div>
+</section>
+
+</body>
+
+</html>
